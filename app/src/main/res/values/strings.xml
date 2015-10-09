@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loading_tips">数据加载中...</string>
+    <string name="app_name">机票通</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="index">首页</string>
+    <string name="flight_order">航班预定</string>
+    <string name="order_manage">预定管理</string>
+    <string name="message">消息</string>
+    <string name="save">保存</string>
+    <string name="personal_center">个人中心</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="clean_cache">清除缓存</string>
+    <string name="search_traveller">请输入您要查找的乘客姓名</string>
+    <string name="add_traveller">添加常旅客</string>
+    <string name="add_new_traveller">添加新乘机人</string>
+    <string name="my_traveller">我的常旅客</string>
+    <string name="traveller_info">乘机人信息</string>
+    <string name="format_time">00:00</string>
+    <string name="reserve">预定</string>
+    <string name="previous">&#060;前一天</string>
+    <string name="next">后一天&#062;</string>
+    <string name="time">事件</string>
+    <string name="time_setting">事件从早到晚</string>
+    <string name="price">价格</string>
+    <string name="price_setting">价格从低到高</string>
+    <string name="select">筛选</string>
+    <string name="research">重新查询</string>
+    <string name="select_other">选择其他</string>
+    <string name="tickets_select">机票筛选</string>
+    <string name="no_limit">不限</string>
+    <string name="through">直飞</string>
+    <string name="rule">退改签规则</string>
+
+    <string name="forget_password_tips">密码将被系统重置后发送到您的手机上，因此用于找回密码的手机号和邮箱必须是您注册时留下并绑定的号码\n\n如需要帮助请致电：021-61851377。</string>
+</resources>

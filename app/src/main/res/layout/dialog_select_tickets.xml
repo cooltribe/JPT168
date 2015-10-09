@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:gravity="center_horizontal"
+              android:layout_margin="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/ticket_select_tv"
+            android:text="@string/tickets_select"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/format_time_size"/>
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+        <RadioButton
+                android:text="直飞/中转"
+                android:background="@drawable/ticket_select_left_bg"
+                android:padding="10dp"
+                android:button="@null"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+        <RadioButton
+                android:text="起飞时段"
+                android:background="@drawable/ticket_select_center_bg"
+                android:padding="10dp"
+                android:button="@null"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+        <RadioButton
+                android:text="航空公司"
+                android:background="@drawable/ticket_select_right_bg"
+                android:padding="10dp"
+                android:button="@null"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+    </RadioGroup>
+    <ListView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/select_ticket_lv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></ListView>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+        android:padding="10dp">
+    <TextView
+            android:id="@+id/previous"
+            android:layout_alignParentLeft="true"
+            android:text="@string/previous"
+            android:textSize="@dimen/pre_next_date_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:id="@+id/date"
+            android:drawableLeft="@drawable/date"
+            android:layout_centerInParent="true"
+            android:text="05-26"
+            android:textSize="@dimen/format_time_size"
+            android:textColor="@color/red"
+            android:drawablePadding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    <TextView
+            android:id="@+id/next"
+            android:text="@string/next"
+            android:textSize="@dimen/pre_next_date_size"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+</RelativeLayout>

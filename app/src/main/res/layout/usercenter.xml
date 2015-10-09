@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="@drawable/usercenter_bj">
+        <com.jpt168.view.CircleImageView
+            android:id="@+id/user_photo"
+            android:src="@drawable/user_photo"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_toRightOf="@id/user_photo"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/user_name"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/user_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/QR_code"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/user_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <com.jpt168.view.PersonCenterItemView
+    android:id="@+id/my_order"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <include
+        layout="@layout/line"/>
+    <com.jpt168.view.PersonCenterItemView
+        android:id="@+id/travel_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <include
+        layout="@layout/line"/>
+    <com.jpt168.view.PersonCenterItemView
+        android:id="@+id/my_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <include
+        layout="@layout/line"/>
+    <com.jpt168.view.PersonCenterItemView
+        android:id="@+id/my_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <include
+        layout="@layout/line"/>
+    <com.jpt168.view.PersonCenterItemView
+        android:id="@+id/about_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <include
+        layout="@layout/line"/>
+    <com.jpt168.view.PersonCenterItemView
+        android:id="@+id/custom_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <include
+        layout="@layout/line"/>
+    <TextView
+        android:id="@+id/clean_cache"
+        android:textColor="@color/red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clean_cache"/>
+    <include
+        layout="@layout/line"/>
+
+</LinearLayout>

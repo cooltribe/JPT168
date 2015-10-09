@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+<include
+        android:id="@+id/top"
+        layout="@layout/reserve_search_order_top"/>
+    <ListView
+            android:layout_below="@id/top"
+            android:id="@+id/flight_scheduled_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+    <include
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/reserve_search_order_bottom"/>
+</RelativeLayout>

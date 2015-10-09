@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#0fff</color>
+    <color name="customdialog_bg">#70ffffff</color>
+    <color name="home_bottom_bar">#eddfd0</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#0000ff</color>
+    <color name="red">#cc0001</color>
+    <color name="orange">#ffa500</color>
+    <color name="page_bg_color">#EEE9E6</color>
+    <color name="grey">#ffa8abad</color>
+    <drawable name="red">#cc0001</drawable>
+    <drawable name="grey">#ffa8abad</drawable>
+
+</resources>

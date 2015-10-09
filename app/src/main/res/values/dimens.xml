@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="add_traveller">16sp</dimen>
+    <dimen name="format_time_size">25sp</dimen>
+    <dimen name="pre_next_date_size">20sp</dimen>
+    <dimen name="little_text_size">12sp</dimen>
+</resources>

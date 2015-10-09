@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="10dp"
+              android:orientation="vertical">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+        <LinearLayout
+                android:id="@+id/start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/start_time"
+                    android:text="@string/format_time"
+                    android:layout_width="wrap_content"
+                    android:textSize="@dimen/format_time_size"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/start_place"
+                    android:text="虹桥机场T1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:id="@+id/flight_scheduled_name"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:text="MH370"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <ImageView
+                android:id="@+id/arrow"
+                android:src="@drawable/arrow"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/start"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/arrow"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/end_time"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="@dimen/format_time_size"
+                    android:text="@string/format_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/end_place"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="首都机场T3"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:orientation="vertical">
+            <TextView
+                    android:text="￥88888"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/format_time_size"/>
+            <TextView
+                    android:id="@+id/revenue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="税费￥230"/>
+            <Button
+                    android:id="@+id/reserve"
+                    android:layout_width="wrap_content"
+                    android:text="@string/reserve"
+                    android:padding="10dp"
+                    android:textColor="@color/red"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/reserve_bg"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
